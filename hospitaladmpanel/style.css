@@ -1,0 +1,121 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    margin-top:25px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FA8072;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #00A86B;
+}
+
+.submit {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FA8072;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #00A86B;
+
+input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+    color: #555;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    position: relative;
+    top: 1px;
+    left: 1px;
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #bbb;
+    cursor: pointer;
+}
+
+input[type="date"]:focus {
+    outline: none;
+    border-color: #08c;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #034ea1 0, #00b7ac);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
